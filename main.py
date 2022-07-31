@@ -13,3 +13,18 @@ df.head()
 
 # Print a concise summary of the dataframe
 df.info()
+
+# Convert all columns to lowercase so as to reduce case sensistive mistakes in code
+df.columns = df.columns.str.lower()
+
+# Find out which country has the most number of participants in the survey
+df['country'].value_counts()
+
+# Find out the states that are unique in our dataframe
+df['state'].unique()
+
+# drop the unnecessary columns
+df = df.drop(['timestamp','comments'], axis = 1)
+
+# Generate a descriptive statistics of our dataframe analyzing both numeric and object series
+df.describe(include='all')
