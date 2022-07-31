@@ -1,5 +1,5 @@
 # Function to remove all null values and plot bar graph
-
+# TODO: need better comments
 def bar_graph_plotter(x_coord, y_coord, y_label, graph_title):
   df_non_NaN = df[df[x_coord].notnull()][[x_coord, y_coord]]
   new_df = (df_non_NaN.groupby(x_coord)[y_coord].value_counts(normalize=True).mul(100).round(2).sort_index()
