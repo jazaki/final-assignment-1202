@@ -1,4 +1,5 @@
 from employee_analysis import run_employee_analysis
+from employer_analysis import run_employer_analysis
 
 # Import appropriate libraries to perform data analytics and visualization
 
@@ -34,3 +35,7 @@ df.describe(include='all')
 
 # Run Employee Specific analysis
 run_employee_analysis()
+
+# Run Employee Specific analysis
+run_employer_analysis()
+
