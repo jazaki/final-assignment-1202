@@ -20,14 +20,22 @@ def run_employee_analysis():
   bar_graph_plotter('country', 'coworkers', 'count', 'Employees comfortable discussing their mental health with their coworkers in World')
 
   # Determining Employees comfortable discussing their mental health with their direct supervisor in US
-  bar_graph_plotter('state', 'supervisor', 'count', 'Employees comfortable discussing their mental health with their direct supervisor in US')
+  bar_graph_plotter(
+    'state', 'supervisor', 'count', 'Employees comfortable discussing their mental health with their direct supervisor in US'
+  )
 
   # Determining Employees comfortable discussing their mental health with their direct supervisor in World
-  bar_graph_plotter('country', 'coworkers', 'count', 'Employees comfortable discussing their mental health with their direct supervisor in World')
+  bar_graph_plotter(
+    'country', 'coworkers', 'count', 'Employees comfortable discussing their mental health with their direct supervisor in World'
+  )
 
   # Determining Employers who put mental health as important as physical health as per employee
-  bar_graph_plotter('state', 'mental_vs_physical', 'count', 'Employers who put mental health as important as physical health as per employee')
+  bar_graph_plotter(
+    'state', 'mental_vs_physical', 'count', 'Employers who put mental health as important as physical health as per employee'
+  )
 
   # Determining Employers who put mental health as important as physical health as per employee
-  bar_graph_plotter('country', 'mental_vs_physical', 'count', 'Employers who put mental health as important as physical health as per employee')
+  bar_graph_plotter(
+    'country', 'mental_vs_physical', 'count', 'Employers who put mental health as important as physical health as per employee'
+  )
   pass
