@@ -5,9 +5,8 @@
 <b>Using the `survey.csv` dataset perform data analytics operations to answer the following question</b>
 
 
-```
-How does the frequency of mental health illness and attitudes towards mental health vary by geographic location?
-```
+> <h3>How does the frequency of mental health illness and attitudes towards mental health vary by geographic location?</h3>
+
 
 ## Data Preprocessing
 
@@ -15,19 +14,19 @@ How does the frequency of mental health illness and attitudes towards mental hea
 
 * Performing `df.info()` we realise that there are 26 columns where age is numerical and remaining all are categorical.
 * `timestamp` is a useless column, since it only indicates the time when the user filled out the survey. Another useless column is `comments`.
-```
+```py
 df = df.drop(['timestamp','comments'], axis = 1)
 ```
 * Some columns are title cased and some are not. We convert all columns to small case so as not to run in any case sensitive errors later.
-```
+```py
 df.columns = df.columns.str.lower()
 ```
 * We also observe that most of the data of the survey originates from either <b>United States</b> and <b>United Kingdom</b>.
-```
+```py
 df['country'].value_counts()
 ```
 * Also, the provinces that are listed are only of <b>United States</b>. Thus in order to conduct a more granular location based analysis a separate analysis on US provinces need to be conducted. This is realised by using the below code.
-```
+```py
 df['state'].unique()
 ```
 <b>Thus for every visualization created for the world countries another analysis on same parameters is conducted for the indivdual provinces of United States.</b>
