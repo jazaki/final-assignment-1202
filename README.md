@@ -41,53 +41,60 @@ df['state'].unique()
 
 ## Employee Specific Analysis
 
-### <i>Determining Employees seeking treatment of their mental illness in US</i>
+### <i>Determining Employees seeking treatment of their mental illness</i>
 
 ### US Province
-
+> From the graph we observe that Illinois (IL) have the most percentage of employees seeking medical treatment with almost 68.97% and Tennessee the least with 40%. 
 ### World
-### <i>Determining Employees seeking treatment of their mental illness in World</i>
+> From the graph we observe that United States have the most percentage of employees seeking medical treatment with almost 54.59% and Netherlands the least with 33.33%. 
+### <i>Determining Employees knowing options for mental care their employer provides</i>
 
 ### US Province
-
+> Both Illinois (IL) and Pennsylvania (PA) shows the max percentage of 51.72% where the employee knows about their employer's mental health benefits. The least is shown by Tennessee (TN) 
 ### World
-### <i>Determining Employees knowing options for mental care their employer provides in US</i>
+> Netherlands shows the least percentage (14.81%)of employees knowing about their meantal health care plan in the world. The United States showing the most percentage (41.41%) in this regard).
+### <i>Determining Employees comfortable discussing their mental health with their coworkers </i>
 
 ### US Province
-
+> Both Oregon (OR) and Ohio (OH) shows the least percentage (almost 10%) of employees open to discussing there mental health with their coworkers.Pennsylvania being the most at 27.59%. However, Illinois (IL) and Tennessee shows the most number (almost 72%) of employees where some aspect of the mental conditions were observed to be discussed amongst employees.
 ### World
-### <i>Determining Employees knowing options for mental care their employer provides in World</i>
+> Ireland has the least percentage (11.11%) of people comfortable of discussing there mental health with their coworkers. The Netherlands being the most at (33.33%). However, Canada and Germany shows the most number (almost 68%) of employees where some aspect of the mental conditions were observed to be discussed amongst employees.
+### <i>Determining Employees comfortable discussing their mental health with their direct supervisor</i>
 
 ### US Province
-
+> Indiana (IN) shows the most number of employees (66.67%) comfortable discussing their mental health with their direct supervisor. Ohio (OH) being the least at (26%)
 ### World
-### <i>Determining Employees comfortable discussing their mental health with their coworkers in US</i>
-
-### US Province
-
-### World
-### <i>Determining Employees comfortable discussing their mental health with their coworkers in World</i>
-
-### US Province
-
-### World
-### <i>Determining Employees comfortable discussing their mental health with their direct supervisor in US</i>
-
-### US Province
-
-### World
-### <i>Determining Employees comfortable discussing their mental health with their direct supervisor in World</i>
-
-### US Province
-
-### World
+> Although most of Netherlands shows the most number of employees (33.33%) who discuss their mental health with their supervisors, Canada has the most number of employees (68.06%) where some aspect of the mental health is discussed.
 ### <i>Determining Employers who put mental health as important as physical health as per employee</i>
 
 ### US Province
-
+> Washington (WA) is the state where most number of employees (35.71%) give their mental health the same importance as their physical health, Ohio being the least at (13.33%).
 ### World
-### <i>Determining Employers who put mental health as important as physical health as per employee</i>
+> Ireland has the least number of employees (14.81%) where employees put their mental health at par with their physical health. However, it is also the country where most of the employees at some level gives the importance to their mental health (44.44%). This is least observed in Canada (26.39%).
 
-### US Province
+## Employer Specific Analysis
 
-### World
+### <i>Determining Employers who provides mental health benefits</i>
+## US Province
+> Washington shows the most number of employees at (62.86%) where the employer provides them with health benefits. The least being Ohio (33.33%).
+## World
+> Ireland and Germany have the least number of employees having mental health benefits from their employers (almost 11%). The most are in United States at 53%.
+
+### <i>Determining Employers who discuss mental health of their employee as per wellness program</i>
+## US Province
+> Texas (TX) has the least number of employees where the employer organizes discussion sessions with them at 6.82%, Washington being the most at 40%.
+## World
+> United States has the most number of employees discussing their mental health with their employers at 22.24%. The least is for Germany and United Kingdom at almost 9%.
+
+### <i>Determining Employers who provides resources to seek help about mental health issues</i>
+## US Province
+> Texas is at least count when providing help to its employees for mental health issues at 13.64%. The most is Washington at 40%.
+## World
+> United States provides the most help for mental health issues to its employees at 25.17% through its employers. The least is for Ireland at 11.11%.
+
+
+### <i>Easiness at which the medical leave can be taken by the employee due to mental state</i>
+## US Province
+> Washington has the easiest leave policy for mental health at 15.71% and Ohio the least at 3.33%.
+## World
+> United Kingdom has the easiest leave application policy at 22.7%. The least is for ireland at 3.7%.
