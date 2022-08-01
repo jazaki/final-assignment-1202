@@ -25,6 +25,10 @@ df.columns = df.columns.str.lower()
 ```py
 df['country'].value_counts()
 ```
+* Taking the means out of these counts we conclude that on an average 26 people participated. Thus we will only consider entities whose 26 or more entities participated in the survey for better understandability.
+```py
+df['country'].value_counts().mean()
+```
 * Also, the provinces that are listed are only of <b>United States</b>. Thus in order to conduct a more granular location based analysis a separate analysis on US provinces need to be conducted. This is realised by using the below code.
 ```py
 df['state'].unique()
@@ -35,54 +39,54 @@ df['state'].unique()
 
 <h2>The visualisations have been created considering both the employee and the employer</h2>
 
-## <u>Employee Specific Analysis</u>
+## Employee Specific Analysis
 
-### <u><i>Determining Employees seeking treatment of their mental illness in US</i></u>
-
-### US Province
-
-### World
-### <u><i>Determining Employees seeking treatment of their mental illness in World</i></u>
+### <i>Determining Employees seeking treatment of their mental illness in US</i>
 
 ### US Province
 
 ### World
-### <u><i>Determining Employees knowing options for mental care their employer provides in US</i></u>
+### <i>Determining Employees seeking treatment of their mental illness in World</i>
 
 ### US Province
 
 ### World
-### <u><i>Determining Employees knowing options for mental care their employer provides in World</i></u>
+### <i>Determining Employees knowing options for mental care their employer provides in US</i>
 
 ### US Province
 
 ### World
-### <u><i>Determining Employees comfortable discussing their mental health with their coworkers in US</i></u>
+### <i>Determining Employees knowing options for mental care their employer provides in World</i>
 
 ### US Province
 
 ### World
-### <u><i>Determining Employees comfortable discussing their mental health with their coworkers in World</i></u>
+### <i>Determining Employees comfortable discussing their mental health with their coworkers in US</i>
 
 ### US Province
 
 ### World
-### <u><i>Determining Employees comfortable discussing their mental health with their direct supervisor in US</i></u>
+### <i>Determining Employees comfortable discussing their mental health with their coworkers in World</i>
 
 ### US Province
 
 ### World
-### <u><i>Determining Employees comfortable discussing their mental health with their direct supervisor in World</i></u>
+### <i>Determining Employees comfortable discussing their mental health with their direct supervisor in US</i>
 
 ### US Province
 
 ### World
-### <u><i>Determining Employers who put mental health as important as physical health as per employee</i></u>
+### <i>Determining Employees comfortable discussing their mental health with their direct supervisor in World</i>
 
 ### US Province
 
 ### World
-### <u><i>Determining Employers who put mental health as important as physical health as per employee</i></u>
+### <i>Determining Employers who put mental health as important as physical health as per employee</i>
+
+### US Province
+
+### World
+### <i>Determining Employers who put mental health as important as physical health as per employee</i>
 
 ### US Province
 
